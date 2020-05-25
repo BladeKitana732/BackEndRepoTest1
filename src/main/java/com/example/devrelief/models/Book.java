@@ -1,7 +1,7 @@
 package com.example.devrelief.models;
 
 import javax.persistence.*;
-import javax.websocket.ClientEndpoint;
+
 
 
 @Entity
@@ -58,5 +58,6 @@ public class Book {
     public int getRelease_date() {
         return release_date;
     }
+
 
 }
